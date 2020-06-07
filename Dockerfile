@@ -2,8 +2,7 @@ ARG ALPINE_VERSION
 
 FROM alpine:${ALPINE_VERSION}
 
-RUN set -x \
- && apk add --no-cache ca-certificates curl ffmpeg gnupg python \
+RUN apk add --no-progress --no-cache ca-certificates curl ffmpeg python gnupg \
      # Install youtube-dl
      # https://github.com/rg3/youtube-dl
  && curl -Lo /usr/local/bin/youtube-dl https://yt-dl.org/downloads/latest/youtube-dl \

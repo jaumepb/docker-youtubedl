@@ -3,7 +3,7 @@ version: 2.1
 executors:
   docker-build-buster:
     docker:
-      - image: circleci/buildpack-deps:buster
+      - image: circleci/python:2.7.14
 
 jobs:
   build:

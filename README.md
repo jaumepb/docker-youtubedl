@@ -1,5 +1,4 @@
-# docker-youtubedl
-[![CircleCI](https://circleci.com/gh/jaumepb/docker-youtubedl.svg?style=svg)](https://circleci.com/gh/jaumepb/docker-youtubedl)
+# docker-youtubedl [![CircleCI](https://circleci.com/gh/jaumepb/docker-youtubedl.svg?style=svg)](https://circleci.com/gh/jaumepb/docker-youtubedl)
 
 ## Download single entry
 ```

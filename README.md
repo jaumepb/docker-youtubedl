@@ -1,4 +1,6 @@
 # docker-youtubedl
+[![CircleCI](https://circleci.com/gh/jaumepb/docker-youtubedl.svg?style=svg)](https://circleci.com/gh/jaumepb/docker-youtubedl)
+
 ## Download single entry
 ```
 youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 YT_URL

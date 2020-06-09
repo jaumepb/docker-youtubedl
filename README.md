@@ -26,6 +26,6 @@ docker run -ti --rm -v $(pwd):/downloads/ jaume/youtubedl -ict --yes-playlist --
 
 ## Alias
 ```
-alias dyoutubedlmp3=`docker pull jaume/youtudl:latest; docker run -it --rm --user $UID:$GID -v ${PWD}:/downloads jaume/youtubedl:latest  -ic -o "%(title)s-%(id)s.%(ext)s" --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 `
+alias dyoutubedlmp3=`docker pull jaume/youtubedl:latest; docker run -it --rm --user $UID:$GID -v ${PWD}:/downloads jaume/youtubedl:latest  -ic -o "%(title)s-%(id)s.%(ext)s" --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 `
 ```
 

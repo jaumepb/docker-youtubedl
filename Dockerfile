@@ -17,9 +17,8 @@ RUN apk add -U --no-progress --no-cache --purge ca-certificates curl ffmpeg pyth
  && chmod a+rw /downloads \
      # Basic check it works.
  && mkdir /.cache \
- && chmod 777 /.cache \
- && ln -s /usr/bin/python3 /usr/bin/python
-
+ && chmod 777 /.cache
+ 
 WORKDIR /downloads
 
 ENTRYPOINT ["youtube-dl"]
